@@ -15,8 +15,9 @@ Before you start, you'll need the following:
 
 1. Clone the Repository
 
-   git clone https://github.com/your-username/your-repo](https://github.com/S-Desitha/terraform-spotify-automation.git
-
+```bash
+   git clone https://github.com/S-Desitha/terraform-spotify-automation.git
+```
 2. Create a .env File
 
 In the root directory of the project, create a .env file and add your Spotify API credentials:
@@ -26,3 +27,9 @@ SPOTIFY_CLIENT_ID=your_spotify_client_id
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 
 Replace your_spotify_client_id and your_spotify_client_secret with your actual Spotify API credentials.
+
+3. Initialize Terraform
+
+Initialize Terraform to download the necessary providers and modules:
+
+   terraform init
