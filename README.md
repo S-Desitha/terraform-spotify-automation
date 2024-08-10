@@ -85,4 +85,5 @@ terraform apply
 Review the plan, and if everything looks good, confirm to proceed.
 
 8. Enjoy Your Playlists
+   
 Now, sit back and enjoy the playlists you created in Spotify! 🎵
